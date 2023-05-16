@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 import img1 from "./image/Group.png";
-import img2 from "./image/Group (1).png";
+import img2 from "./image/Group (1) (1).png";
 import img3 from "./image/Group (1).png";
 import img4 from "./image/Group (3).png";
 import img5 from "./image/Group (4).png";
 import img6 from "./image/Group (5).png";
-
+import sideimg from "./image/Untitled-4 2.png";
+import { AiOutlineArrowRight } from "react-icons/ai";
 function App() {
   return (
     <div>
@@ -14,7 +14,13 @@ function App() {
         <div className="leftcontainer1">
           <h3>Expert BigCommerce Consulting</h3>
           <h2>Bigcommerce Development Service</h2>
-          <button className="team">Consult our BigCommerce Team</button>
+          <button className="team">
+            Consult our BigCommerce Team <AiOutlineArrowRight id="fArrow" />
+          </button>
+        </div>
+        <div className="rightcontainer1">
+          <div className="circle"></div>
+          <img src={sideimg} alt="img" width={300} className="rightimg1" />
         </div>
       </div>
       {/* ************************************ */}
@@ -27,7 +33,7 @@ function App() {
         <h4>which results in better conversions and higher AOV.</h4>
         <div className="box">
           <div className="first1" id="new">
-            <img src={img1} className="startup" />
+            <img src={img1} className="startup" alt="img" />
             <h3>Startup</h3>
             <h5>
               We can help you start up a BigCommerce store that is completely
@@ -35,7 +41,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img2} />
+            <img src={img2} alt="img" />
             <h3>Design</h3>
             <h5>
               Our BigCommerce design team has demonstrated its excellence in
@@ -44,7 +50,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img3} />
+            <img src={img3} alt="img" />
             <h3>Migration</h3>
             <h5>
               We make migration to BigCommerce easy. We guarantee that no data
@@ -53,7 +59,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img4} />
+            <img src={img4} alt="img" />
             <h3>Programming</h3>
             <h5>
               If you need something that is out of the box we can help you
@@ -61,7 +67,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img5} />
+            <img src={img5} alt="img" />
             <h3>Maintenance</h3>
             <h5>
               We maintain and manage several BigCommerce stores helping them
@@ -69,7 +75,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img6} />
+            <img src={img6} alt="img" />
             <h3>Customization</h3>
             <h5>
               Whether you are looking to migrate from blueprint to stencil or
