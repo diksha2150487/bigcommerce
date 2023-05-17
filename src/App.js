@@ -15,7 +15,8 @@ function App() {
           <h3>Expert BigCommerce Consulting</h3>
           <h2>Bigcommerce Development Service</h2>
           <button className="team">
-            Consult our BigCommerce Team <AiOutlineArrowRight id="fArrow" />
+            <p> Consult our BigCommerce Team</p>{" "}
+            <AiOutlineArrowRight id="fArrow" />
           </button>
         </div>
         <div className="rightcontainer1">
@@ -41,7 +42,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img2} alt="img" />
+            <img src={img2} className="startup" alt="img" />
             <h3>Design</h3>
             <h5>
               Our BigCommerce design team has demonstrated its excellence in
@@ -50,7 +51,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img3} alt="img" />
+            <img src={img3} className="startup" alt="img" />
             <h3>Migration</h3>
             <h5>
               We make migration to BigCommerce easy. We guarantee that no data
@@ -59,7 +60,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img4} alt="img" />
+            <img src={img4} className="startup" alt="img" />
             <h3>Programming</h3>
             <h5>
               If you need something that is out of the box we can help you
@@ -67,7 +68,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img5} alt="img" />
+            <img src={img5} className="startup" alt="img" />
             <h3>Maintenance</h3>
             <h5>
               We maintain and manage several BigCommerce stores helping them
@@ -75,7 +76,7 @@ function App() {
             </h5>
           </div>
           <div className="first1">
-            <img src={img6} alt="img" />
+            <img src={img6} className="startup" alt="img" />
             <h3>Customization</h3>
             <h5>
               Whether you are looking to migrate from blueprint to stencil or
