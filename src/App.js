@@ -10,8 +10,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 function App() {
   return (
     <div>
-      <div className="container1">
-        <div className="leftcontainer1">
+      <div className="paper1">
+        <div className="leftpaper1">
           <h3>Expert BigCommerce Consulting</h3>
           <h2>Bigcommerce Development Service</h2>
           <button className="team">
@@ -19,20 +19,20 @@ function App() {
             <AiOutlineArrowRight id="fArrow" />
           </button>
         </div>
-        <div className="rightcontainer1">
+        <div className="rightpaper1">
           <div className="circle"></div>
           <img src={sideimg} alt="img" width={300} className="rightimg1" />
         </div>
       </div>
       {/* ************************************ */}
-      <div className="container2">
+      <div className="paper2">
         <h2>BIGCOMMERCE SERVICES OFFERED</h2>
         <h3>
           We develop BigCommerce stores that provide a unique and refined
           experience to site visitors
         </h3>
         <h4>which results in better conversions and higher AOV.</h4>
-        <div className="box">
+        <div className="paperbox">
           <div className="first1" id="new">
             <img src={img1} className="startup" alt="img" />
             <h3>Startup</h3>
