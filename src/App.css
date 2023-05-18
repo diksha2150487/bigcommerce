@@ -99,7 +99,6 @@
 }
 /* *********************************************** */
 .paper2 {
-  background-color: aqua;
   background: #f7f7f7;
 }
 .paper2 h2 {
@@ -113,7 +112,7 @@
   padding-top: 3rem;
   font-style: normal;
 }
-.paper2 h3 {
+.stores {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
   text-align: center;
@@ -137,35 +136,36 @@
   flex-wrap: wrap;
   margin-top: 2rem;
 }
-#new {
+/* #new {
   background-color: #085881;
   color: #ffffff;
-}
-#new h3 {
+} */
+/* #new h3 {
   color: #ffffff;
 }
 #new h5 {
   color: #ffffff;
-}
+} */
 .first1 {
-  background-color: white;
+  background: white;
   height: 331px;
   border-radius: 15px;
   max-width: 350px;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-bottom: 3rem;
   align-items: center;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer;
 }
 
 .first1 h3 {
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  /* color: black; */
   text-align: center;
   letter-spacing: 0.1px;
 }
@@ -174,14 +174,16 @@
   font-size: 17px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  color: #ffffff;
+  /* color: #ffffff; */
   font-weight: 300;
-  color: #404040;
+  /* color: #404040; */
   margin-top: 1rem;
 }
 .startup {
   width: 45px;
+  margin-bottom: 1rem;
 }
 .first1:hover {
   background-color: #085881;
+  color: #ffffff;
 }

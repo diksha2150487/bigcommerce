@@ -27,7 +27,7 @@ function App() {
       {/* ************************************ */}
       <div className="paper2">
         <h2>BIGCOMMERCE SERVICES OFFERED</h2>
-        <h3>
+        <h3 className="stores">
           We develop BigCommerce stores that provide a unique and refined
           experience to site visitors
         </h3>
